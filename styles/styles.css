@@ -1,19 +1,133 @@
+/* ==== Requirements === */
+/* 
+1. make every section responsive fora  mobile device.
+2. TABLET--> OPTIONAL
+3. NO lorem Ipsum
+
+BONUS
+1. Give the site a different name
+2. nav bar menu burger
+3. pUT NAMES OF THE DESTINATION IN THE MIDDLE
+4.Add extra SECTION
+
+
+
+ */
+
 /* All shared styles */
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+  font-family: "Inter", sans-serif;
+}
+.primary-color {
+  color: #ff4b00;
+}
+body {
+  max-width: 1170px;
+  border: 2px dotted blue;
+  margin: 0 auto;
+}
+
+.btn-primary {
+  height: 50px;
+  background-color: #ff4b00;
+  font-size: 1rem;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 15px 25px;
+  font-size: 20px;
+  font-weight: 600;
+}
 
 /* Nav bar styles */
+.nav-container {
+  height: 12vh;
+  border: 1px solid rebeccapurple;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-logo-container {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+home {
+  font-weight: 900;
+}
 
 /* Banner styles */
+/* .banner-contents-container {
+  max-width: 1170px;
+  border: 2px dashed#ff4b00;
+} */
+
+.banner-container {
+  display: flex;
+  max-width: 1170px;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto;
+  background-image: url("../Images/banner-img/banner_img.png");
+  background-position: center;
+  border: 2px solid orangered;
+}
+
+/* .banner-container-contents {
+} */
 
 /* Popular tours section styles */
+.popular-tour-container {
+  height: 50vh;
+  background-color: plum;
+}
 
 /* Destination section  styles */
+.destination-container {
+  height: 80vh;
+  background-color: darkgray;
+}
+
+.choose-container {
+  height: 60vh;
+  background-color: cadetblue;
+}
 
 /* Why choose use section styles */
 
 /* Deals and discount section styles  */
+.deal-container {
+  height: 100vh;
+  background-color: darkmagenta;
+}
 
 /* Simple perfect place section styles  */
+.perfect-place-container {
+  height: 100vh;
+  background-color: paleturquoise;
+}
 
 /* newsletter section styles  */
+.newsletter-container {
+  height: 50vh;
+  background-color: navajowhite;
+}
 
 /* footer section styles  */
+.footer-container {
+  height: 40vh;
+  background-color: firebrick;
+}
