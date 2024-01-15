@@ -31,8 +31,9 @@ body {
   margin: 0 auto;
 }
 
-.text-primary {
+.primary-text {
   font-size: 2.5rem;
+  font-weight: 800;
 }
 
 .btn-primary {
@@ -142,13 +143,32 @@ home {
   align-items: center;
 }
 
-/* Popular tours section styles */
+/* ===========Popular tours section styles */
 .popular-tour-container {
-  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 550px;
   background-color: plum;
+  width: 100%;
+  margin-top: 100px;
+  gap: 50px;
+}
+pop-tour-description {
+  width: 50%;
+}
+.pop-tour-img-container {
+  width: 50%;
 }
 
-/* Destination section  styles */
+.popular-tour-container li,
+p,
+.btn-primary {
+  line-height: 1.5rem;
+  margin-top: 15px;
+}
+
+/*================= Destination section  styles */
 .destination-container {
   height: 80vh;
   background-color: darkgray;
@@ -159,15 +179,15 @@ home {
   background-color: cadetblue;
 }
 
-/* Why choose use section styles */
+/* ================Why choose use section styles */
 
-/* Deals and discount section styles  */
+/* ================Deals and discount section styles  */
 .deal-container {
   height: 100vh;
   background-color: darkmagenta;
 }
 
-/* Simple perfect place section styles  */
+/* ==============Simple perfect place section styles  */
 .perfect-place-container {
   height: 100vh;
   background-color: paleturquoise;

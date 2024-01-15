@@ -43,4 +43,25 @@
     flex-direction: column;
     width: 300px;
   }
+  /* ==== Popular Tours ====== */
+
+  .popular-tour-container {
+    flex-direction: column;
+    margin-top: 20px;
+    height: 1090px;
+  }
+  pop-tour-description {
+    width: 100%;
+  }
+  .pop-tour-img-container {
+    width: 100%;
+  }
+
+  .popular-tour-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .pop-tour-img {
+    width: 100%;
+  }
 }
