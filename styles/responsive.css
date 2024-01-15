@@ -3,9 +3,44 @@
 
 @media screen and (max-width: 600px) {
   .nav-container {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .banner-container {
+    flex-direction: column;
+    /* height: 100vh; */
+  }
+  .banner-container-contents {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .banner-heading {
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+
+  .banner-description {
+    padding: 0px 5px;
+  }
+
+  .banner-choices {
+    display: inline-flex;
+    flex-direction: column;
+    max-width: 600px;
     justify-content: center;
     align-items: center;
+    padding: 16px;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 100%, 50%);
+    /* border: 2px solid #ff4b00; */
+    gap: 16px;
+  }
+
+  .b-choice-op {
+    flex-direction: column;
+    width: 300px;
   }
 }
