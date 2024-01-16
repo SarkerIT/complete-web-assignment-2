@@ -122,41 +122,41 @@
   .price {
     background-color: #fef5f6;
   }
-}
 
-/* === deals section */
+  /* === deals section */
 
-.box-texts1,
-.box-texts2,
-.box-texts3 {
-  height: 390px;
-  width: 550px;
-  background-color: hsl(0, 0%, 100%, 80%);
-  border-radius: 15px;
-  margin-left: 15px;
-  padding: 15px;
-}
+  .box-texts1,
+  .box-texts2,
+  .box-texts3 {
+    height: 390px;
+    width: 550px;
+    background-color: hsl(0, 0%, 100%, 80%);
+    border-radius: 15px;
+    margin-left: 15px;
+    padding: 15px;
+  }
 
-/*  ======== perfect place */
-.perfect-place-container {
-  height: 1000px;
-  width: 590px;
-  margin: 0px;
-  padding: 0px;
-  display: flex;
-  flex-direction: column;
-}
+  /*  ======== perfect place */
+  .perfect-place-container {
+    height: 900px;
+    width: 590px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+  }
 
-.perfect-place-description {
-  height: 390px;
-  width: 550px;
-  margin: 0px;
-  padding-left: 10px;
-}
+  .perfect-place-description-container {
+    height: 390px;
+    width: 550px;
+    margin: 0px;
+    padding-left: 10px;
+  }
 
-.perfect-place-img-container {
-  height: 390px;
-  width: 550px;
-  margin: 0px;
-  padding-left: 10px;
+  .perfect-place-img-container {
+    height: 390px;
+    width: 550px;
+    margin: 0px;
+    padding-left: 10px;
+  }
 }

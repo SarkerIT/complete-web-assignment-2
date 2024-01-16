@@ -409,24 +409,25 @@ p,
 .perfect-place-container {
   margin-top: 50px;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 425px;
-  /* background-color: paleturquoise; */
+  height: 420px;
+  width: 1170px;
+  background-color: paleturquoise;
   border-radius: 15px;
+  border: 2px solid peru;
+  gap: 20px;
 }
 
-.perfect-place-description {
+.perfect-place-description-container {
   width: 50%;
-}
-
-.primary-text-bd {
-  font-weight: 800;
+  margin: 0px auto;
 }
 
 .perfect-place-img-container {
   width: 50%;
-  height: 500px;
+
   background-image: url("/Images/perfect-place/pp-img.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -435,6 +436,9 @@ p,
   justify-content: space-between;
   background-size: contain;
   border-radius: 15px;
+}
+.primary-text-bd {
+  font-weight: 800;
 }
 .bd-mountains {
   color: white;
@@ -446,8 +450,11 @@ p,
 .bd-audio {
   width: 100%;
   opacity: 30%;
-
   /* background-color: hsl(353, 82%, 98%, 10%); */
+}
+
+.bd-bullet-points {
+  text-overflow: 800;
 }
 
 /* newsletter section styles  */
