@@ -159,4 +159,34 @@
     margin: 0px;
     padding-left: 10px;
   }
+
+  .newsletter-container {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .website {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .newsletter-container {
+    flex-direction: row;
+    height: 800px;
+  }
+
+  .extra-section {
+    height: 600px;
+  }
+
+  .xtr-img {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+  }
+
+  .footer-container {
+    flex-direction: row;
+  }
 }
