@@ -151,7 +151,7 @@ home {
   height: 550px;
   background-color: plum;
   width: 100%;
-  margin-top: 100px;
+  margin: 50px 0px;
   gap: 50px;
 }
 pop-tour-description {
@@ -170,16 +170,66 @@ p,
 
 /*================= Destination section  styles */
 .destination-container {
-  height: 80vh;
-  background-color: darkgray;
+  border: 1px solid blue;
+  height: 1100px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(14, 1fr);
+  justify-content: center;
+  align-items: center;
 }
 
-.choose-container {
+.top-destinations-texts {
+  border: 1px solid #ff4b00;
+  grid-column: span 12;
+  grid-row: span 2;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 25px 200px;
+}
+.top-destinations-ml {
+  border: 1px solid #ff4b00;
+  grid-column: span 6;
+  grid-row: span 4;
+}
+.top-destinations-id {
+  border: 1px solid #ff4b00;
+  grid-column: span 6;
+  grid-row: span 4;
+}
+
+.top-destinations-sl {
+  border: 1px solid #ff4b00;
+  grid-column: span 4;
+  grid-row: span 4;
+}
+.top-destinations-na {
+  border: 1px solid #ff4b00;
+  grid-column: span 5;
+  grid-row: span 4;
+}
+
+.top-destinations-kas {
+  border: 1px solid #ff4b00;
+  grid-column: span 3;
+  grid-row: span 4;
+}
+.top-destinations-bd {
+  border: 1px solid #ff4b00;
+  grid-column: span 5;
+  grid-row: span 4;
+}
+.top-destinations-bnd {
+  border: 1px solid #ff4b00;
+  grid-column: span 7;
+  grid-row: span 4;
+}
+/* ================ Why choose use section styles */
+.why-choose-container {
   height: 60vh;
   background-color: cadetblue;
 }
-
-/* ================Why choose use section styles */
 
 /* ================Deals and discount section styles  */
 .deal-container {
