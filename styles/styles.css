@@ -172,7 +172,7 @@ p,
   margin-top: 15px;
 }
 
-/*================= Destination section  styles */
+/*================= Destination section  styles Done*/
 .destination-container {
   /* border: 1px solid blue; */
   height: 1100px;
@@ -292,8 +292,40 @@ p,
 }
 /* ================ Why choose use section styles */
 .why-choose-container {
-  height: 60vh;
-  background-color: cadetblue;
+  height: 75vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+  margin: 50px;
+}
+
+.why-choose-texts {
+  grid-column: span 2;
+  grid-row: span 1;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hotel {
+  padding: 25px;
+  border-radius: 10px;
+  background-color: #fffcf7;
+}
+
+.service {
+  padding: 25px;
+  border-radius: 10px;
+  background-color: #f4feff;
+}
+.price {
+  grid-column: span 2;
+  width: 600px;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: #fef5f6;
+  margin-left: 300px;
 }
 
 /* ================Deals and discount section styles  */
