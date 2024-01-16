@@ -312,12 +312,14 @@ p,
   padding: 25px;
   border-radius: 10px;
   background-color: #fffcf7;
+  border: 1px solid #ede0c8;
 }
 
 .service {
   padding: 25px;
   border-radius: 10px;
   background-color: #f4feff;
+  border: 1px solid #aeeaef;
 }
 .price {
   grid-column: span 2;
@@ -325,7 +327,8 @@ p,
   padding: 25px;
   border-radius: 10px;
   background-color: #fef5f6;
-  margin-left: 300px;
+  margin-left: 200px;
+  border: 1px solid #f4b8bf;
 }
 
 /* ================Deals and discount section styles  */
