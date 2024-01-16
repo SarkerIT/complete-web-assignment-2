@@ -414,9 +414,9 @@ p,
   align-items: center;
   height: 420px;
   width: 1170px;
-  background-color: paleturquoise;
+  /* background-color: paleturquoise; */
   border-radius: 15px;
-  border: 2px solid peru;
+  /* border: 2px solid peru; */
   gap: 20px;
 }
 
@@ -459,14 +459,75 @@ p,
 
 /* newsletter section styles  */
 .newsletter-container {
-  height: 50vh;
-  background-color: navajowhite;
+  /* border: 3px solid slateblue; */
+  height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: hsl(0, 0%, 50%, 30%); */
+  margin-top: 20px;
+}
+
+.newsletter-img {
+  /* border: #ff4b00 1px solid; */
+  height: 380px;
+
+  width: 50%;
+  background-image: url("/Images/news-letter-img/news-letetr-img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-size: contain;
+  border-radius: 15px;
+}
+.news-form {
+  display: block;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto 20px;
+  width: 50%;
+  height: 380px;
+
+  /* border: #ff4b00 1px solid; */
+}
+.news-input {
+  margin: 20px 0px;
+  height: 50px;
+  background-color: lightgray;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.news-button {
+  margin-top: 170px;
+  margin-left: 200px;
+  width: 360px;
+  height: 140px;
+  line-height: 3rem;
+  transform: rotate(-20deg);
+}
+.subscribe {
+  width: 550px;
+}
+
+.website {
+  font-weight: 40;
+  font-size: 1.75rem;
 }
 
 /*  extra section styles */
 .extra-section {
   background-color: lightpink;
   height: 40vh;
+}
+.subscribe-text {
+  margin-bottom: 1px red solid;
+}
+
+hr {
+  border-bottom: gray 2px solid;
 }
 
 /* footer section styles  */
