@@ -153,7 +153,7 @@ home {
   justify-content: space-between;
   align-items: center;
   height: 550px;
-  background-color: plum;
+  /* background-color: plum; */
   width: 100%;
   margin: 50px 0px;
   gap: 50px;
@@ -174,7 +174,7 @@ p,
 
 /*================= Destination section  styles */
 .destination-container {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   height: 1100px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -186,7 +186,7 @@ p,
 }
 
 .top-destinations-texts {
-  border: 1px solid #ff4b00;
+  /* border: 1px solid #ff4b00 */
   grid-column: span 12;
   grid-row: span 2;
   justify-content: center;
@@ -196,7 +196,7 @@ p,
   color: black;
 }
 .top-destinations-ml {
-  border: 1px solid #ff4b00;
+  /* border: 1px solid #ff4b00; */
   grid-column: span 6;
   grid-row: span 4;
   /* display: flex; */
@@ -215,7 +215,7 @@ p,
 }
 
 .top-destinations-id {
-  border: 1px solid #ff4b00;
+  /* border: 1px solid #ff4b00; */
   grid-column: span 6;
   grid-row: span 4;
   position: relative;
@@ -228,7 +228,7 @@ p,
 }
 
 .top-destinations-sl {
-  border: 1px solid #ff4b00;
+  /* border: 1px solid #ff4b00; */
   grid-column: span 4;
   grid-row: span 4;
   position: relative;
@@ -241,7 +241,7 @@ p,
 }
 
 .top-destinations-na {
-  border: 1px solid #ff4b00;
+  /* border: 1px solid #ff4b00; */
   grid-column: span 5;
   grid-row: span 4;
   position: relative;
@@ -254,7 +254,7 @@ p,
 }
 
 .top-destinations-kas {
-  border: 1px solid #ff4b00;
+  /* border: 1px solid #ff4b00; */
   grid-column: span 3;
   grid-row: span 4;
   position: relative;
@@ -267,7 +267,7 @@ p,
 }
 
 .top-destinations-bd {
-  border: 1px solid #ff4b00;
+  /* border: 1px solid #ff4b00; */
   grid-column: span 5;
   grid-row: span 4;
   position: relative;
@@ -279,7 +279,7 @@ p,
   left: 240px;
 }
 .top-destinations-bnd {
-  border: 1px solid #ff4b00;
+  /* border: 1px solid #ff4b00; */
   grid-column: span 7;
   grid-row: span 4;
   position: relative;
@@ -312,6 +312,12 @@ p,
 .newsletter-container {
   height: 50vh;
   background-color: navajowhite;
+}
+
+/*  extra section styles */
+.extra-section {
+  background-color: lightpink;
+  height: 40vh;
 }
 
 /* footer section styles  */
