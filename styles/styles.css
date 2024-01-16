@@ -85,7 +85,7 @@ home {
   justify-content: center;
   margin: 0px auto;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.95)),
-    url(.../Images/banner-img/banner_img.png);
+    url(../Images/banner-img/banner_img.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -353,7 +353,7 @@ p,
 }
 
 .deals-box1 {
-  background-image: url("./Images/deals-img/deals-img-1-3.png");
+  background-image: url("../Images/deals-img/deals-img-1-3.png");
 }
 .box-texts1,
 .box-texts3 {
@@ -374,11 +374,11 @@ p,
 }
 
 .deals-box2 {
-  background-image: url("./Images/deals-img/deals-img-2.png");
+  background-image: url("../Images/deals-img/deals-img-2.png");
 }
 
 .deals-box3 {
-  background-image: url("./Images/deals-img/deals-img-1-3.png");
+  background-image: url("../Images/deals-img/deals-img-1-3.png");
 }
 .fa-solid {
   font-size: 20px;
@@ -428,7 +428,7 @@ p,
 .perfect-place-img-container {
   width: 50%;
 
-  background-image: url("./Images/perfect-place/pp-img.png");
+  background-image: url("../Images/perfect-place/pp-img.png");
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
@@ -473,7 +473,7 @@ p,
   height: 380px;
 
   width: 50%;
-  background-image: url("./Images/news-letter-img/news-letetr-img.png");
+  background-image: url("../Images/news-letter-img/news-letetr-img.png");
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
